@@ -1,8 +1,8 @@
 <div align="center">
 
-# Bismuth
-
 <img src="Assets/icon.png" alt="Bismuth icon" width="128">
+
+# Bismuth
 
 **An early in-development PowerPC32 instruction translator for Apple Silicon.**
 
