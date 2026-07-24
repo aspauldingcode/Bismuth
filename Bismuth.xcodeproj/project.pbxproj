@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		109C88A28E9C516314A5C44D /* BRPPCQTKitResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = 640F76176FF08BE3380B546A /* BRPPCQTKitResolve.m */; };
+		17DEA7E6006361A27D6D64FD /* BRPPCFrameworkResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = A585B5F8B282D0094E8FC3AA /* BRPPCFrameworkResolve.m */; };
+		1E1F2EF5078B9622EBAA0366 /* BRPowerPC32.m in Sources */ = {isa = PBXBuildFile; fileRef = 993BD3249CB7843E2F2A2A92 /* BRPowerPC32.m */; };
+		20761537600A7A97610E38BB /* BRPPCSecurityResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = B01A9C7C9C59A4B9A75016EB /* BRPPCSecurityResolve.m */; };
+		312F187BEBDD0DEB766654EF /* BRPPCDarwinResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAE1E4F97A60FF877E3307E /* BRPPCDarwinResolve.m */; };
+		48BB4AA2A32F9F777AA96900 /* BRPPCNetworkResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = C006A6B64CD41B131AC73B60 /* BRPPCNetworkResolve.m */; };
+		4C5A13E04F2D9B4DDA93D1EC /* BRPPCAddressBookResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = 741321C4E2BBDD1EA248C3ED /* BRPPCAddressBookResolve.m */; };
+		4C9D507BCC25BF8B046C49D8 /* BRPPCQuartzCoreResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = CACEACC3764886EDCF7A906D /* BRPPCQuartzCoreResolve.m */; };
+		5C620BDBE108D96F26734E82 /* BRPPCResolveRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = B50610BF61723A67C226A3E1 /* BRPPCResolveRegistry.m */; };
+		61026A0ED5317F779D999084 /* BRPPCCoreServicesResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE9049A4E57BA47CB5A329E /* BRPPCCoreServicesResolve.m */; };
+		61F7BAE69CC12AC897152D48 /* BRPPCWebKitResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = 149561751F6A585C0134BCA6 /* BRPPCWebKitResolve.m */; };
+		6931A8FFE6F48F2C7DBC0BFD /* BRPPCCoreVideoResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFA3B28CA2E171B3462D3A4 /* BRPPCCoreVideoResolve.m */; };
+		6CFD60C4610DE8C92C34A467 /* BRPPCAltiVec.m in Sources */ = {isa = PBXBuildFile; fileRef = A83C1FF4D1CAF79FADE899A6 /* BRPPCAltiVec.m */; };
+		75C264D95261FC38BE05A9AD /* BRPPCApplicationRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = BECC42CAE22F0225308E1557 /* BRPPCApplicationRunner.m */; };
+		7DB8BEB217A4C5283DAC5006 /* BRPPCOpenALResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = F18155EBE74652AADD43A161 /* BRPPCOpenALResolve.m */; };
+		81769600EA4A940CE9AECF24 /* BRPPCFoundationResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEAB8BB479E4EA7D4C05D54 /* BRPPCFoundationResolve.m */; };
+		820C3DC57A40AC000A41F269 /* BRPPCIOKitResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D231661A3644D3F027DEFB /* BRPPCIOKitResolve.m */; };
+		8B4720A1B063570A6CD96FEC /* BRPPCSecurityAuthorizer.m in Sources */ = {isa = PBXBuildFile; fileRef = EF07CE020254AAFD0DDDF0B5 /* BRPPCSecurityAuthorizer.m */; };
+		8FD33E7FC41144DD8BCBA953 /* BRPPCAddressSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = D461FCDF62BB81863230758A /* BRPPCAddressSpace.m */; };
+		8FE197920117846211EF79DF /* BismuthScarlet.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC7954A2ABD6D7EF3E87796 /* BismuthScarlet.m */; };
+		9B920C4B9E833CD2B0E2A83F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E4490CA19E8DD0D554827A /* main.m */; };
+		9FE7309C0CDCA0FBC3BEA28B /* BRPPCCarbonResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = A66234080317E3B35F8D1E80 /* BRPPCCarbonResolve.m */; };
+		A5B7B6CCB2FAE602677DAFF2 /* BRPPCDiscRecordingResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F2A62E4A44017C776EDB7A /* BRPPCDiscRecordingResolve.m */; };
+		AE528B662DF67DE27BF2418B /* BRPPCSystemConfigurationResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = D23392958EE0444317DE253E /* BRPPCSystemConfigurationResolve.m */; };
+		AE7712F7A1623DDC5D901244 /* BRPPCQuickTimeResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBF76CDA1EB27D6D2FAF088 /* BRPPCQuickTimeResolve.m */; };
+		B915D65580272D04D3AF99E6 /* BRPPCAccelerateResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D398B4D5BBEE4F793302335 /* BRPPCAccelerateResolve.m */; };
+		BA74D2A934D6026024169D50 /* BRPPCMachOLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = DF40D758C225F9A9FE78EDB4 /* BRPPCMachOLoader.m */; };
+		C0BFF050C500D7EEF495952F /* BRPPCObjectiveCResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D589B3333573EB90AA62A8E /* BRPPCObjectiveCResolve.m */; };
+		CEC34DDC786AC5D1BED87527 /* BRPPCOpenGLResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = 514928F124D05F7180550B51 /* BRPPCOpenGLResolve.m */; };
+		E1D112B4C955911C8D2FAD74 /* BRPPCCocoaResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = CC36441D7F962A3810CE215E /* BRPPCCocoaResolve.m */; };
+		E50C10863D16651C74EE308A /* BRPPCAudioResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA4D0BF7866BB18EC2B4681 /* BRPPCAudioResolve.m */; };
+		E7170E9F9C185AEDB34DB24F /* BRPPCCoreFoundationResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = 93ABBE953601279620884040 /* BRPPCCoreFoundationResolve.m */; };
+		EF79560348BFB74A75BFC2F9 /* BRPPCAppKitResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A43E194DAC815160EA8D8D /* BRPPCAppKitResolve.m */; };
+		EF8958A08C1824BC31DCC241 /* BRPPCQuartzResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E86F8C13899625B61A9A21C /* BRPPCQuartzResolve.m */; };
+		F93F1F1E45C715F38B87C6F0 /* BRPPCMathResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = A669B0809BF7109D64852CCE /* BRPPCMathResolve.m */; };
+		FD05407941FF937342647FB5 /* BRPPCApplicationServicesResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E510D8D21C95A39DB18222 /* BRPPCApplicationServicesResolve.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00C88361DAECCEE7C26180E4 /* BRPPCFoundationResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCFoundationResolve.h; sourceTree = "<group>"; };
+		04B538FF13642E7D874358AF /* BRPPCAddressBookResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCAddressBookResolve.h; sourceTree = "<group>"; };
+		11EC7674DCAD153193AC7CA2 /* BRPPCAudioResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCAudioResolve.h; sourceTree = "<group>"; };
+		149561751F6A585C0134BCA6 /* BRPPCWebKitResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCWebKitResolve.m; sourceTree = "<group>"; };
+		15E4490CA19E8DD0D554827A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1892458062616179C6C0F46C /* BRPPCWebKitResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCWebKitResolve.h; sourceTree = "<group>"; };
+		18F10735D6A3B43E505372C5 /* BRPPCApplicationServicesResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCApplicationServicesResolve.h; sourceTree = "<group>"; };
+		1D398B4D5BBEE4F793302335 /* BRPPCAccelerateResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCAccelerateResolve.m; sourceTree = "<group>"; };
+		20DFC3F2200B5F7F9B23DA46 /* BRPPCAddressSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCAddressSpace.h; sourceTree = "<group>"; };
+		26D330ED530B5D16458A3EE8 /* BRPPCQuartzResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCQuartzResolve.h; sourceTree = "<group>"; };
+		319C628311AA6C5BFBB57381 /* BRPPCCoreServicesResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCCoreServicesResolve.h; sourceTree = "<group>"; };
+		32D231661A3644D3F027DEFB /* BRPPCIOKitResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCIOKitResolve.m; sourceTree = "<group>"; };
+		3A0218550E6D9BDABF82F436 /* BRPPCGuestLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCGuestLayout.h; sourceTree = "<group>"; };
+		3AAE1E4F97A60FF877E3307E /* BRPPCDarwinResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCDarwinResolve.m; sourceTree = "<group>"; };
+		3B2B909CDB7A811F692B564C /* BRPPCDiscRecordingResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCDiscRecordingResolve.h; sourceTree = "<group>"; };
+		46982FD4E3210597795010C6 /* BRPPCOpenALResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCOpenALResolve.h; sourceTree = "<group>"; };
+		4711AEEEBF3607A71DB39E56 /* BRPPCDarwinResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCDarwinResolve.h; sourceTree = "<group>"; };
+		514928F124D05F7180550B51 /* BRPPCOpenGLResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCOpenGLResolve.m; sourceTree = "<group>"; };
+		5E86F8C13899625B61A9A21C /* BRPPCQuartzResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCQuartzResolve.m; sourceTree = "<group>"; };
+		640F76176FF08BE3380B546A /* BRPPCQTKitResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCQTKitResolve.m; sourceTree = "<group>"; };
+		650E9188BDBD005151CEB410 /* BRPPCQuickTimeResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCQuickTimeResolve.h; sourceTree = "<group>"; };
+		65548E52ABF26A3122EAA002 /* BRPPCFrameworkResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCFrameworkResolve.h; sourceTree = "<group>"; };
+		6B733A4F794BA08FBC238406 /* BRPPCSecurityResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCSecurityResolve.h; sourceTree = "<group>"; };
+		6D589B3333573EB90AA62A8E /* BRPPCObjectiveCResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCObjectiveCResolve.m; sourceTree = "<group>"; };
+		6EE9049A4E57BA47CB5A329E /* BRPPCCoreServicesResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCCoreServicesResolve.m; sourceTree = "<group>"; };
+		741321C4E2BBDD1EA248C3ED /* BRPPCAddressBookResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCAddressBookResolve.m; sourceTree = "<group>"; };
+		750A65199177539F2DA3E753 /* BRPPCCocoaResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCCocoaResolve.h; sourceTree = "<group>"; };
+		764B3A0F9F4C735B0E69E0FC /* BRPPCMathResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCMathResolve.h; sourceTree = "<group>"; };
+		7EEAB8BB479E4EA7D4C05D54 /* BRPPCFoundationResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCFoundationResolve.m; sourceTree = "<group>"; };
+		7FFA3B28CA2E171B3462D3A4 /* BRPPCCoreVideoResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCCoreVideoResolve.m; sourceTree = "<group>"; };
+		81E30191F39708975BA08E43 /* BRPPCCarbonResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCCarbonResolve.h; sourceTree = "<group>"; };
+		82EA72F319CEFD872C031AF5 /* BRPPCAccelerateResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCAccelerateResolve.h; sourceTree = "<group>"; };
+		84BCB9F1D1C2DD1CCEBFCE5A /* BRPPCAltiVec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCAltiVec.h; sourceTree = "<group>"; };
+		897C8E6766324EEA88F753E2 /* BRPowerPC32.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPowerPC32.h; sourceTree = "<group>"; };
+		8C403C5A71ACEFAD384E9C01 /* BRPPCApplicationRunner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCApplicationRunner.h; sourceTree = "<group>"; };
+		909D871C5B40E44028C47772 /* BRPPCResolveRegistry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCResolveRegistry.h; sourceTree = "<group>"; };
+		93ABBE953601279620884040 /* BRPPCCoreFoundationResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCCoreFoundationResolve.m; sourceTree = "<group>"; };
+		94E510D8D21C95A39DB18222 /* BRPPCApplicationServicesResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCApplicationServicesResolve.m; sourceTree = "<group>"; };
+		96A654BA529B14CAFC5D34BC /* BRPPCIOKitResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCIOKitResolve.h; sourceTree = "<group>"; };
+		993BD3249CB7843E2F2A2A92 /* BRPowerPC32.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPowerPC32.m; sourceTree = "<group>"; };
+		9AF015FE7DCD29EBBDD8D3D0 /* BRPPCQuartzCoreResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCQuartzCoreResolve.h; sourceTree = "<group>"; };
+		9EA4D0BF7866BB18EC2B4681 /* BRPPCAudioResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCAudioResolve.m; sourceTree = "<group>"; };
+		A2D0C743ED72B1B8309B5469 /* BRPPCNetworkResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCNetworkResolve.h; sourceTree = "<group>"; };
+		A585B5F8B282D0094E8FC3AA /* BRPPCFrameworkResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCFrameworkResolve.m; sourceTree = "<group>"; };
+		A66234080317E3B35F8D1E80 /* BRPPCCarbonResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCCarbonResolve.m; sourceTree = "<group>"; };
+		A669B0809BF7109D64852CCE /* BRPPCMathResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCMathResolve.m; sourceTree = "<group>"; };
+		A83C1FF4D1CAF79FADE899A6 /* BRPPCAltiVec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCAltiVec.m; sourceTree = "<group>"; };
+		AB4BE42439DF55B9F5E617DE /* BRPPCAppKitResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCAppKitResolve.h; sourceTree = "<group>"; };
+		ABC2906A12276A362916C35C /* BRPPCCoreFoundationResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCCoreFoundationResolve.h; sourceTree = "<group>"; };
+		ACE132172D939F65BDFC8DDD /* BismuthScarlet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BismuthScarlet.h; sourceTree = "<group>"; };
+		AEBF76CDA1EB27D6D2FAF088 /* BRPPCQuickTimeResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCQuickTimeResolve.m; sourceTree = "<group>"; };
+		B01A9C7C9C59A4B9A75016EB /* BRPPCSecurityResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCSecurityResolve.m; sourceTree = "<group>"; };
+		B50610BF61723A67C226A3E1 /* BRPPCResolveRegistry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCResolveRegistry.m; sourceTree = "<group>"; };
+		BECC42CAE22F0225308E1557 /* BRPPCApplicationRunner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCApplicationRunner.m; sourceTree = "<group>"; };
+		C006A6B64CD41B131AC73B60 /* BRPPCNetworkResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCNetworkResolve.m; sourceTree = "<group>"; };
+		CACEACC3764886EDCF7A906D /* BRPPCQuartzCoreResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCQuartzCoreResolve.m; sourceTree = "<group>"; };
+		CC36441D7F962A3810CE215E /* BRPPCCocoaResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCCocoaResolve.m; sourceTree = "<group>"; };
+		D23392958EE0444317DE253E /* BRPPCSystemConfigurationResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCSystemConfigurationResolve.m; sourceTree = "<group>"; };
+		D461FCDF62BB81863230758A /* BRPPCAddressSpace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCAddressSpace.m; sourceTree = "<group>"; };
+		D6F2A62E4A44017C776EDB7A /* BRPPCDiscRecordingResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCDiscRecordingResolve.m; sourceTree = "<group>"; };
+		DF40D758C225F9A9FE78EDB4 /* BRPPCMachOLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCMachOLoader.m; sourceTree = "<group>"; };
+		DF83AE4BF42B925F6A67414A /* BRPPCQTKitResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCQTKitResolve.h; sourceTree = "<group>"; };
+		E2F809EC986495C5E0F9F6D5 /* BRPPCMachOLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCMachOLoader.h; sourceTree = "<group>"; };
+		ECC7954A2ABD6D7EF3E87796 /* BismuthScarlet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BismuthScarlet.m; sourceTree = "<group>"; };
+		EF07CE020254AAFD0DDDF0B5 /* BRPPCSecurityAuthorizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCSecurityAuthorizer.m; sourceTree = "<group>"; };
+		F0636B993013B9E40028F257 /* BismuthInterpreter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = BismuthInterpreter; path = /Users/theoderoy/Bismuth/build/Debug/BismuthInterpreter; sourceTree = "<absolute>"; };
+		F18155EBE74652AADD43A161 /* BRPPCOpenALResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCOpenALResolve.m; sourceTree = "<group>"; };
+		F5CB51AEBA252EEC8E6E453C /* BRPPCObjectiveCResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCObjectiveCResolve.h; sourceTree = "<group>"; };
+		F6A48DD8A94D4AEF49977631 /* BRPPCCoreVideoResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCCoreVideoResolve.h; sourceTree = "<group>"; };
+		F8A43E194DAC815160EA8D8D /* BRPPCAppKitResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCAppKitResolve.m; sourceTree = "<group>"; };
+		F9BE4C1276C70F6419CA04A3 /* BRPPCSystemConfigurationResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCSystemConfigurationResolve.h; sourceTree = "<group>"; };
+		FA0F7AE90BC198A51A22A6B8 /* BRPPCOpenGLResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCOpenGLResolve.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65159157B5094256BD4B707B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0936D33A0C7C33E65CFBC41F /* BismuthInterpreter */ = {
+			isa = PBXGroup;
+			children = (
+				15E4490CA19E8DD0D554827A /* main.m */,
+			);
+			path = BismuthInterpreter;
+			sourceTree = "<group>";
+		};
+		58E46969AC7296D4A4AF74B4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				897C8E6766324EEA88F753E2 /* BRPowerPC32.h */,
+				993BD3249CB7843E2F2A2A92 /* BRPowerPC32.m */,
+				84BCB9F1D1C2DD1CCEBFCE5A /* BRPPCAltiVec.h */,
+				A83C1FF4D1CAF79FADE899A6 /* BRPPCAltiVec.m */,
+				EF07CE020254AAFD0DDDF0B5 /* BRPPCSecurityAuthorizer.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9FC838C2AC019E105AEE7FB2 = {
+			isa = PBXGroup;
+			children = (
+				58E46969AC7296D4A4AF74B4 /* Core */,
+				CAFE8048A7329740B790CE57 /* Resolves */,
+				0936D33A0C7C33E65CFBC41F /* BismuthInterpreter */,
+			);
+			sourceTree = "<group>";
+		};
+		CAFE8048A7329740B790CE57 /* Resolves */ = {
+			isa = PBXGroup;
+			children = (
+				ACE132172D939F65BDFC8DDD /* BismuthScarlet.h */,
+				ECC7954A2ABD6D7EF3E87796 /* BismuthScarlet.m */,
+				82EA72F319CEFD872C031AF5 /* BRPPCAccelerateResolve.h */,
+				1D398B4D5BBEE4F793302335 /* BRPPCAccelerateResolve.m */,
+				04B538FF13642E7D874358AF /* BRPPCAddressBookResolve.h */,
+				741321C4E2BBDD1EA248C3ED /* BRPPCAddressBookResolve.m */,
+				20DFC3F2200B5F7F9B23DA46 /* BRPPCAddressSpace.h */,
+				D461FCDF62BB81863230758A /* BRPPCAddressSpace.m */,
+				AB4BE42439DF55B9F5E617DE /* BRPPCAppKitResolve.h */,
+				F8A43E194DAC815160EA8D8D /* BRPPCAppKitResolve.m */,
+				8C403C5A71ACEFAD384E9C01 /* BRPPCApplicationRunner.h */,
+				BECC42CAE22F0225308E1557 /* BRPPCApplicationRunner.m */,
+				18F10735D6A3B43E505372C5 /* BRPPCApplicationServicesResolve.h */,
+				94E510D8D21C95A39DB18222 /* BRPPCApplicationServicesResolve.m */,
+				11EC7674DCAD153193AC7CA2 /* BRPPCAudioResolve.h */,
+				9EA4D0BF7866BB18EC2B4681 /* BRPPCAudioResolve.m */,
+				81E30191F39708975BA08E43 /* BRPPCCarbonResolve.h */,
+				A66234080317E3B35F8D1E80 /* BRPPCCarbonResolve.m */,
+				750A65199177539F2DA3E753 /* BRPPCCocoaResolve.h */,
+				CC36441D7F962A3810CE215E /* BRPPCCocoaResolve.m */,
+				ABC2906A12276A362916C35C /* BRPPCCoreFoundationResolve.h */,
+				93ABBE953601279620884040 /* BRPPCCoreFoundationResolve.m */,
+				319C628311AA6C5BFBB57381 /* BRPPCCoreServicesResolve.h */,
+				6EE9049A4E57BA47CB5A329E /* BRPPCCoreServicesResolve.m */,
+				F6A48DD8A94D4AEF49977631 /* BRPPCCoreVideoResolve.h */,
+				7FFA3B28CA2E171B3462D3A4 /* BRPPCCoreVideoResolve.m */,
+				4711AEEEBF3607A71DB39E56 /* BRPPCDarwinResolve.h */,
+				3AAE1E4F97A60FF877E3307E /* BRPPCDarwinResolve.m */,
+				3B2B909CDB7A811F692B564C /* BRPPCDiscRecordingResolve.h */,
+				D6F2A62E4A44017C776EDB7A /* BRPPCDiscRecordingResolve.m */,
+				00C88361DAECCEE7C26180E4 /* BRPPCFoundationResolve.h */,
+				7EEAB8BB479E4EA7D4C05D54 /* BRPPCFoundationResolve.m */,
+				65548E52ABF26A3122EAA002 /* BRPPCFrameworkResolve.h */,
+				A585B5F8B282D0094E8FC3AA /* BRPPCFrameworkResolve.m */,
+				3A0218550E6D9BDABF82F436 /* BRPPCGuestLayout.h */,
+				96A654BA529B14CAFC5D34BC /* BRPPCIOKitResolve.h */,
+				32D231661A3644D3F027DEFB /* BRPPCIOKitResolve.m */,
+				E2F809EC986495C5E0F9F6D5 /* BRPPCMachOLoader.h */,
+				DF40D758C225F9A9FE78EDB4 /* BRPPCMachOLoader.m */,
+				764B3A0F9F4C735B0E69E0FC /* BRPPCMathResolve.h */,
+				A669B0809BF7109D64852CCE /* BRPPCMathResolve.m */,
+				A2D0C743ED72B1B8309B5469 /* BRPPCNetworkResolve.h */,
+				C006A6B64CD41B131AC73B60 /* BRPPCNetworkResolve.m */,
+				F5CB51AEBA252EEC8E6E453C /* BRPPCObjectiveCResolve.h */,
+				6D589B3333573EB90AA62A8E /* BRPPCObjectiveCResolve.m */,
+				46982FD4E3210597795010C6 /* BRPPCOpenALResolve.h */,
+				F18155EBE74652AADD43A161 /* BRPPCOpenALResolve.m */,
+				FA0F7AE90BC198A51A22A6B8 /* BRPPCOpenGLResolve.h */,
+				514928F124D05F7180550B51 /* BRPPCOpenGLResolve.m */,
+				DF83AE4BF42B925F6A67414A /* BRPPCQTKitResolve.h */,
+				640F76176FF08BE3380B546A /* BRPPCQTKitResolve.m */,
+				9AF015FE7DCD29EBBDD8D3D0 /* BRPPCQuartzCoreResolve.h */,
+				CACEACC3764886EDCF7A906D /* BRPPCQuartzCoreResolve.m */,
+				26D330ED530B5D16458A3EE8 /* BRPPCQuartzResolve.h */,
+				5E86F8C13899625B61A9A21C /* BRPPCQuartzResolve.m */,
+				650E9188BDBD005151CEB410 /* BRPPCQuickTimeResolve.h */,
+				AEBF76CDA1EB27D6D2FAF088 /* BRPPCQuickTimeResolve.m */,
+				909D871C5B40E44028C47772 /* BRPPCResolveRegistry.h */,
+				B50610BF61723A67C226A3E1 /* BRPPCResolveRegistry.m */,
+				6B733A4F794BA08FBC238406 /* BRPPCSecurityResolve.h */,
+				B01A9C7C9C59A4B9A75016EB /* BRPPCSecurityResolve.m */,
+				F9BE4C1276C70F6419CA04A3 /* BRPPCSystemConfigurationResolve.h */,
+				D23392958EE0444317DE253E /* BRPPCSystemConfigurationResolve.m */,
+				1892458062616179C6C0F46C /* BRPPCWebKitResolve.h */,
+				149561751F6A585C0134BCA6 /* BRPPCWebKitResolve.m */,
+			);
+			path = Resolves;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76EFAAA759B6B37340CC08C4 /* BismuthInterpreter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 231B43EB944FCF666BE07A2B /* Build configuration list for PBXNativeTarget "BismuthInterpreter" */;
+			buildPhases = (
+				F1E9EE90C249D9BA34B3154D /* Sources */,
+				65159157B5094256BD4B707B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BismuthInterpreter;
+			packageProductDependencies = (
+			);
+			productName = BismuthInterpreter;
+			productReference = F0636B993013B9E40028F257 /* BismuthInterpreter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5E8E80FB0D1C0A8A49E3C87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = A93BA03069EAAF7779E5BECD /* Build configuration list for PBXProject "Bismuth" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 9FC838C2AC019E105AEE7FB2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9FC838C2AC019E105AEE7FB2;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76EFAAA759B6B37340CC08C4 /* BismuthInterpreter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1E9EE90C249D9BA34B3154D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B915D65580272D04D3AF99E6 /* BRPPCAccelerateResolve.m in Sources */,
+				4C5A13E04F2D9B4DDA93D1EC /* BRPPCAddressBookResolve.m in Sources */,
+				8FD33E7FC41144DD8BCBA953 /* BRPPCAddressSpace.m in Sources */,
+				6CFD60C4610DE8C92C34A467 /* BRPPCAltiVec.m in Sources */,
+				EF79560348BFB74A75BFC2F9 /* BRPPCAppKitResolve.m in Sources */,
+				75C264D95261FC38BE05A9AD /* BRPPCApplicationRunner.m in Sources */,
+				FD05407941FF937342647FB5 /* BRPPCApplicationServicesResolve.m in Sources */,
+				E50C10863D16651C74EE308A /* BRPPCAudioResolve.m in Sources */,
+				9FE7309C0CDCA0FBC3BEA28B /* BRPPCCarbonResolve.m in Sources */,
+				E1D112B4C955911C8D2FAD74 /* BRPPCCocoaResolve.m in Sources */,
+				E7170E9F9C185AEDB34DB24F /* BRPPCCoreFoundationResolve.m in Sources */,
+				61026A0ED5317F779D999084 /* BRPPCCoreServicesResolve.m in Sources */,
+				6931A8FFE6F48F2C7DBC0BFD /* BRPPCCoreVideoResolve.m in Sources */,
+				312F187BEBDD0DEB766654EF /* BRPPCDarwinResolve.m in Sources */,
+				A5B7B6CCB2FAE602677DAFF2 /* BRPPCDiscRecordingResolve.m in Sources */,
+				81769600EA4A940CE9AECF24 /* BRPPCFoundationResolve.m in Sources */,
+				17DEA7E6006361A27D6D64FD /* BRPPCFrameworkResolve.m in Sources */,
+				820C3DC57A40AC000A41F269 /* BRPPCIOKitResolve.m in Sources */,
+				BA74D2A934D6026024169D50 /* BRPPCMachOLoader.m in Sources */,
+				F93F1F1E45C715F38B87C6F0 /* BRPPCMathResolve.m in Sources */,
+				48BB4AA2A32F9F777AA96900 /* BRPPCNetworkResolve.m in Sources */,
+				C0BFF050C500D7EEF495952F /* BRPPCObjectiveCResolve.m in Sources */,
+				7DB8BEB217A4C5283DAC5006 /* BRPPCOpenALResolve.m in Sources */,
+				CEC34DDC786AC5D1BED87527 /* BRPPCOpenGLResolve.m in Sources */,
+				109C88A28E9C516314A5C44D /* BRPPCQTKitResolve.m in Sources */,
+				4C9D507BCC25BF8B046C49D8 /* BRPPCQuartzCoreResolve.m in Sources */,
+				EF8958A08C1824BC31DCC241 /* BRPPCQuartzResolve.m in Sources */,
+				AE7712F7A1623DDC5D901244 /* BRPPCQuickTimeResolve.m in Sources */,
+				5C620BDBE108D96F26734E82 /* BRPPCResolveRegistry.m in Sources */,
+				8B4720A1B063570A6CD96FEC /* BRPPCSecurityAuthorizer.m in Sources */,
+				20761537600A7A97610E38BB /* BRPPCSecurityResolve.m in Sources */,
+				AE528B662DF67DE27BF2418B /* BRPPCSystemConfigurationResolve.m in Sources */,
+				61F7BAE69CC12AC897152D48 /* BRPPCWebKitResolve.m in Sources */,
+				1E1F2EF5078B9622EBAA0366 /* BRPowerPC32.m in Sources */,
+				9B920C4B9E833CD2B0E2A83F /* main.m in Sources */,
+				8FE197920117846211EF79DF /* BismuthScarlet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		19D633D69723FAFC8A055489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Werror",
+				);
+			};
+			name = Release;
+		};
+		37A98D59BC822CF89AA4F80B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Werror",
+				);
+			};
+			name = Debug;
+		};
+		6575487666C04DB83259C836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AUTOMATION_APPLE_EVENTS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\".\"",
+				);
+				GCC_OPTIMIZATION_LEVEL = 2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				OTHER_LDFLAGS = "-lffi";
+				PRODUCT_BUNDLE_IDENTIFIER = theoderoy.BismuthInterpreter;
+				PRODUCT_NAME = BismuthInterpreter;
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E07B1569CAFB79120B378161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AUTOMATION_APPLE_EVENTS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\".\"",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				OTHER_LDFLAGS = "-lffi";
+				PRODUCT_BUNDLE_IDENTIFIER = theoderoy.BismuthInterpreter;
+				PRODUCT_NAME = BismuthInterpreter;
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		231B43EB944FCF666BE07A2B /* Build configuration list for PBXNativeTarget "BismuthInterpreter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6575487666C04DB83259C836 /* Debug */,
+				E07B1569CAFB79120B378161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A93BA03069EAAF7779E5BECD /* Build configuration list for PBXProject "Bismuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A98D59BC822CF89AA4F80B /* Debug */,
+				19D633D69723FAFC8A055489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5E8E80FB0D1C0A8A49E3C87 /* Project object */;
+}
