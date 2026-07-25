@@ -178,6 +178,7 @@ int main(int argc, const char *argv[]) {
         } else {
             path = [[NSFileManager defaultManager]
                 stringWithFileSystemRepresentation:argv[pathIndex] length:strlen(argv[pathIndex])];
+            path = [[NSURL fileURLWithPath:path] path].stringByStandardizingPath;
             arguments = [NSMutableArray arrayWithObject:path];
             for (int i = pathIndex + 1; i < argc; i++)
                 [arguments addObject:[[NSFileManager defaultManager]
