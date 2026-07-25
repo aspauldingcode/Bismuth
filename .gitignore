@@ -1,6 +1,17 @@
+# macOS Filesystem
+.DS_Store
 
-/.DS_Store
+# Build artifacts
+/build/
+/DerivedData/
+/Test/
+/Trace
+
+# Xcode personal settings
+xcuserdata/
+*.mode1v3
+*.mode2v3
+*.perspectivev3
 /Bismuth.xcodeproj/xcuserdata
 /Bismuth.xcodeproj/project.xcworkspace/xcuserdata
 /Bismuth.xcodeproj/xcshareddata
-/Trace

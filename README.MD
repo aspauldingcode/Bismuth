@@ -16,6 +16,8 @@ Bismuth interprets old PowerPC Mac software to run on modern Apple Silicon Macs.
 
 ![Bismuth running iMovie '09](Assets/banner.png)
 
+For a quickstart guide, see [Docs/QUICKSTART.md](Docs/QUICKSTART.md).
+
 ## Why in god's name would you put this out in it's current state?
 
 Because this is exactly the point at which outside eyes are valuable. Bismuth has admittedly hitten several halts with my expertise, but I think the open-source community is a lovely bunch, and I'd cherish any contributions made deeply.
