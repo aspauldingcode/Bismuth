@@ -211,6 +211,7 @@ static void BRReturn(BRPPCState *state, uint32_t value) {
     mach_timebase_info_data_t workerTimebase;
     mach_timebase_info(&workerTimebase);
     const double workerTargetNanoseconds = 1000000.0;
+    uint64_t lastWorkerService = mach_absolute_time();
 
     while (!darwin.exitRequested) {
       __strong NSError *iterationError = nil;
@@ -272,11 +273,19 @@ static void BRReturn(BRPPCState *state, uint32_t value) {
 
 
 
+            if (handled) {
+                uint64_t now = mach_absolute_time();
+                double elapsedNanoseconds = (double)(now - lastWorkerService) *
+                    workerTimebase.numer / workerTimebase.denom;
+                if (elapsedNanoseconds < workerTargetNanoseconds) continue;
+                mainProgress = workerInstructionQuantum;
+            }
             uint64_t workerStart = mach_absolute_time();
             iterationSucceeded = [darwin
                 runGuestThreadSliceWithInstructionLimit:MAX(mainProgress, UINT64_C(1))
                 error:&iterationError];
             uint64_t workerEnd = mach_absolute_time();
+            lastWorkerService = workerEnd;
             if (iterationSucceeded && darwin.lastGuestThreadSliceExecuted && handled) {
                 double elapsedNanoseconds = (double)(workerEnd - workerStart) *
                     workerTimebase.numer / workerTimebase.denom;

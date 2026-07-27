@@ -111,7 +111,7 @@
 		E2F809EC986495C5E0F9F6D5 /* BRPPCMachOLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCMachOLoader.h; sourceTree = "<group>"; };
 		ECC7954A2ABD6D7EF3E87796 /* BismuthScarlet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BismuthScarlet.m; sourceTree = "<group>"; };
 		EF07CE020254AAFD0DDDF0B5 /* BRPPCSecurityAuthorizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCSecurityAuthorizer.m; sourceTree = "<group>"; };
-		F0636B993013B9E40028F257 /* BismuthInterpreter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = BismuthInterpreter; path = /Users/theoderoy/Bismuth/build/Debug/BismuthInterpreter; sourceTree = "<absolute>"; };
+		F0AE3B1130177F5000A52900 /* BismuthInterpreter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = BismuthInterpreter; path = /Users/theoderoy/Bismuth/build/Debug/BismuthInterpreter; sourceTree = "<absolute>"; };
 		F18155EBE74652AADD43A161 /* BRPPCOpenALResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPPCOpenALResolve.m; sourceTree = "<group>"; };
 		F5CB51AEBA252EEC8E6E453C /* BRPPCObjectiveCResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCObjectiveCResolve.h; sourceTree = "<group>"; };
 		F6A48DD8A94D4AEF49977631 /* BRPPCCoreVideoResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPPCCoreVideoResolve.h; sourceTree = "<group>"; };
@@ -250,7 +250,7 @@
 			packageProductDependencies = (
 			);
 			productName = BismuthInterpreter;
-			productReference = F0636B993013B9E40028F257 /* BismuthInterpreter */;
+			productReference = F0AE3B1130177F5000A52900 /* BismuthInterpreter */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */

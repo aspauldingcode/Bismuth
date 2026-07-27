@@ -109,8 +109,8 @@ static CGImageRef BRPPCCopyOpenGLBackBuffer(id context, NSView **viewResult) {
         pixelStore(GL_PACK_SKIP_ROWS, 0);
         pixelStore(GL_PACK_SKIP_PIXELS, 0);
     }
-    readPixels(viewport[0], viewport[1], width, height, GL_RGBA, GL_UNSIGNED_BYTE,
-               pixels.mutableBytes);
+    readPixels(viewport[0], viewport[1], width, height, GL_BGRA,
+               GL_UNSIGNED_INT_8_8_8_8_REV, pixels.mutableBytes);
     if (pixelStore) {
         pixelStore(GL_PACK_ALIGNMENT, packAlignment);
         pixelStore(GL_PACK_ROW_LENGTH, packRowLength);
@@ -118,7 +118,8 @@ static CGImageRef BRPPCCopyOpenGLBackBuffer(id context, NSView **viewResult) {
         pixelStore(GL_PACK_SKIP_PIXELS, packSkipPixels);
     }
     CGDataProviderRef provider = CGDataProviderCreateWithCFData((__bridge CFDataRef)pixels);
-    CGBitmapInfo bitmapInfo = kCGBitmapByteOrder32Big | (CGBitmapInfo)kCGImageAlphaNoneSkipLast;
+    CGBitmapInfo bitmapInfo = kCGBitmapByteOrder32Little |
+        (CGBitmapInfo)kCGImageAlphaNoneSkipFirst;
     CGImageRef image = CGImageCreate((size_t)width, (size_t)height, 8, 32, rowBytes,
         colorSpace, bitmapInfo, provider, NULL, false,
         kCGRenderingIntentDefault);
@@ -2819,17 +2820,22 @@ static NSUInteger GuestValueSize(const char *rawType) {
         if (presentsLegacyOpenGL) {
             id context = receiver;
             NSView *contextView = [context valueForKey:@"view"];
-            NSNumber *lastTime = objc_getAssociatedObject(
+            NSNumber *nextTime = objc_getAssociatedObject(
                 context, BRPPCLegacyOpenGLPresentationTimeKey);
             CFTimeInterval now = CACurrentMediaTime();
             NSInteger refreshRate = contextView.window.screen.maximumFramesPerSecond;
-            BOOL presentationDue = !lastTime || refreshRate <= 0 ||
-                now - lastTime.doubleValue >= 1.0 / refreshRate;
+            CFTimeInterval frameInterval = refreshRate > 0 ? 1.0 / refreshRate : 0;
+            BOOL presentationDue = !nextTime || refreshRate <= 0 ||
+                now >= nextTime.doubleValue;
             CGImageRef image = presentationDue
                 ? BRPPCCopyOpenGLBackBuffer(context, &legacyOpenGLView) : NULL;
-            if (image)
+            if (image) {
+                CFTimeInterval nextDeadline = now + frameInterval;
+                if (nextTime && now - nextTime.doubleValue < frameInterval)
+                    nextDeadline = nextTime.doubleValue + frameInterval;
                 objc_setAssociatedObject(context, BRPPCLegacyOpenGLPresentationTimeKey,
-                    @(now), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+                    @(nextDeadline), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+            }
             if (image) legacyOpenGLImage = CFBridgingRelease(image);
             if (legacyOpenGLImage && legacyOpenGLView) {
                 NSView *view = legacyOpenGLView;
