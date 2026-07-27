@@ -8,6 +8,8 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENSE)
 
+For the Quick Start, see [QUICKSTART.md](Docs/QUICKSTART.md).
+
 </div>
 
 ## What is this?
@@ -15,8 +17,6 @@
 Bismuth interprets old PowerPC Mac software to run on modern Apple Silicon Macs. It loads 32-bit PowerPC Mach-O executables or 32-bit PowerPC app binaries, emulates their instructions, and feeds adapted macOS framework links through it's Resolves system, and for any missing symbols, Scarlet will attempt to dynamically resolve them.
 
 ![Bismuth running iMovie '09](Assets/banner.png)
-
-For a quickstart guide, see [Docs/QUICKSTART.md](Docs/QUICKSTART.md).
 
 ## Why in god's name would you put this out in it's current state?
 
