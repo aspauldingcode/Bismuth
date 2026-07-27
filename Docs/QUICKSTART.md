@@ -7,11 +7,10 @@ Welcome to Bismuth, a translation layer for running PowerPC32 Mac software on mo
 
 ## Running BismuthInterpreter
 
-To run a PowerPC executable or app binary using the CLI interpreter:
+To run a PowerPC executable or app binary:
 
 ```bash
-# Using a local build path:
-./build/Build/Products/Debug/BismuthInterpreter [--trace] <path-to-binary-or-app> [arguments...]
+BismuthInterpreter [--trace] <path-to-binary-or-app> [arguments...]
 ```
 
 * Both receive a temporary signature, so always take necessary precaution when running software you're not familiar with (functions that require elevated privileges will still need your credentials).
