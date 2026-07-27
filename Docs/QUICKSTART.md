@@ -1,47 +1,22 @@
-# Bismuth Quick Start Guide
+# Quick Start
 
-Welcome to Bismuth, a translation layer for running classic PowerPC32 software on modern Apple Silicon.
+Welcome to Bismuth, a translation layer for running PowerPC32 Mac software on modern Apple Silicon.
 
 > [!NOTE]
-> **Long-Term Vision**: Bismuth's primary target is a fully featured GUI environment equipped with quality-of-life feature flags (similar to CrossOver). While the GUI is planned for a later release, the project currently provides a command-line interpreter backend (`BismuthInterpreter`) for developer preview, testing, and early experimentation.
+> **For general audience**: A graphical interface is in development for Bismuth but is not yet ready. It'll be equipped with runtime flags and other settings you might be looking for. The interpreter itself is available for testing if you are familiar with the command-line.
 
-## Running Bismuth (CLI/Developer Preview)
+## Running BismuthInterpreter
 
-During this early development phase, you can interact with the translation engine using the command-line tool, `BismuthInterpreter`.
-
-### Build
-
-You can build the interpreter backend via Xcode:
-
-1. Open `Bismuth.xcodeproj` in Xcode.
-2. Select the `BismuthInterpreter` scheme.
-3. Build the project.
-
-Alternatively, you can build from the command line:
-
-```bash
-xcodebuild -scheme BismuthInterpreter -configuration Debug
-```
-
-If you prefer to build to a custom path (e.g., a local `./build` directory) for easier CLI access:
-
-```bash
-xcodebuild -scheme BismuthInterpreter -configuration Debug -derivedDataPath build
-```
-
-### Run
-
-To run a PowerPC binary or application bundle using the CLI interpreter:
+To run a PowerPC executable or app binary using the CLI interpreter:
 
 ```bash
 # Using a local build path:
 ./build/Build/Products/Debug/BismuthInterpreter [--trace] <path-to-binary-or-app> [arguments...]
 ```
 
-* **CLI tools** execute directly in the terminal.
-* **GUI applications** (`.app` bundles) launch within a temporary signed wrapper.
+* Both receive a temporary signature, so always take necessary precaution when running software you're not familiar with (functions that require elevated privileges will still need your credentials).
 
-## Tracing and Debugging
+### Arguments
 
 The `--trace` flag enables Objective-C message tracing and Scarlet symbol resolver logs.
 
@@ -76,5 +51,3 @@ Set any of these to a file path to redirect trace logs:
 * `BISMUTH_UI_TRACE_FILE`
 * `BISMUTH_IO_TRACE_FILE`
 * `BISMUTH_ERROR_LOG`
-
-Good Luck, and have fun. 
